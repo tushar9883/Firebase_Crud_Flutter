@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
+import 'Easy_Method/FireStore.dart';
 import 'fire.dart';
 
 Future main() async {
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const Control());
+        //home: const Control());
+        home: const FireStore());
   }
 }
